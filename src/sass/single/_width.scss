@@ -1,0 +1,134 @@
+.width--max-content{
+    width: max-content;
+}
+
+.width--max-width--224px{
+    max-width: 224px;
+}
+//PERCENT ================================================================================ 
+.width--100{width: 100%}
+.width--90{width: 90%}
+.width--80{width: 80%;}
+.width--70{width: 70%}
+.width--60{width: 60%}
+.width--50{width: 50%}
+.width--40{width: 40%}
+.width--30{width: 30%}
+.width--20{width: 20%}
+.width--10{width: 10%}
+.width--0{width: 0px}
+//================================================================================ PERCENT
+//
+//
+//
+//
+//
+//VW ================================================================================ 
+.width--100vw{width: 100vw}
+//================================================================================ VW
+//
+//
+//
+//
+//
+//PIXEL ================================================================================
+.width--24px{width: 24px}
+.width--28px{width: 28px}
+.width--40px{width: 40px}
+.width--48px{width: 48px}
+.width--56px{width: 56px}
+.width--64px{width: 64px}
+.width--80px{width: 80px}
+.width--100px{width: 100px}
+.width--110px{width: 110px}
+.width--120px{width: 120px}
+.width--140px{width: 140px}
+.width--150px{width: 150px}
+.width--160px{width: 160px}
+.width--180px{width: 180px}
+.width--200px{width: 200px}
+.width--220px{width: 220px}
+.width--250px{width: 250px}
+.width--300px{width: 300px}
+//================================================================================ PIXEL
+//
+//
+//
+//
+//
+//MIN-WIDTH PIXEL ================================================================================
+.min-width--40px{min-width: 40px}
+//================================================================================ MIN-WIDTH PIXEL
+//
+//
+//
+//
+//
+//MAX-WIDTH ================================================================================
+.max-width--100{max-width: 100%}
+//================================================================================ MAX-WIDTH
+//
+//
+//
+//
+//
+//BASE ================================================================================ 
+.width--initial{width: initial}
+//================================================================================ BASE
+//
+//
+//
+//
+//
+//MOBILE PIXEL ================================================================================ 
+@media only all and (max-width: $mobile) {
+    .mobile--width--28px{width: 28px}
+    .mobile--width--80px{width: 80px}
+    .mobile--width--110px{width: 110px}
+    .mobile--width--100px{width: 100px}
+    .mobile--width--120px{width: 120px}
+    .mobile--width--140px{width: 140px}
+    .mobile--width--160px{width: 160px}
+    .mobile--width--180px{width: 180px}
+    .mobile--width--200px{width: 200px}
+    .mobile--width--220px{width: 220px}
+    .mobile--width--300px{width: 300px}
+}
+//================================================================================ MOBILE PIXEL
+//
+//
+//
+//
+//
+//MOBILE PERCENT ================================================================================ 
+@media only all and (max-width: $mobile) {
+    .mobile--width--100{width: 100%}
+    .mobile--width--90{width: 90%}
+    .mobile--width--70{width: 70%}
+    .mobile--width--60{width: 60%}
+    .mobile--width--50{width: 50%}
+    .mobile--width--40{width: 40%}
+    .mobile--width--30{width: 30%}
+    .mobile--width--20{width: 20%}
+    .mobile--width--10{width: 10%}
+    .mobile--width--0{width: 0px}
+}
+//================================================================================ MOBILE PERCENT
+
+@media only all and (min-width: $mobile) {
+    .desktop-max-width--680px{
+        max-width: 680px;
+    }
+    .desktop-max-width--504px{
+        max-width: 534px;
+    }
+    .desktop-max-width--768px{
+        max-width: 798px;
+    }
+    .desktop-max-width--376px{
+        max-width: 396px;
+    }
+    .desktop--width--auto{width: auto}
+    .desktop--width--100{width: 100%}
+    
+}

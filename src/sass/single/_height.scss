@@ -1,0 +1,14 @@
+.fit-to-screen{
+    min-height: calc(100vh - 143px);
+}
+
+
+
+@media only all and (min-width: $mobile) {
+    .fit-to-screen{
+        min-height: calc(100vh - 80px);
+    }
+    .desktop-fit-to-screen{
+        min-height: calc(100vh - 80px);
+    }
+}

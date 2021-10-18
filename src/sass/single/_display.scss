@@ -1,0 +1,16 @@
+
+.display--none{display: none}
+.display--block{display: block}
+.display--table{display: table}
+.display--flex{display: flex}
+.display--inline-block{display: inline-block}
+.opacity--0{opacity: 0;}
+.opacity--1{opacity: 1;}
+@media only all and (max-width: $mobile) {
+    .mobile--display--none{display: none !important}
+    .mobile--display--block{display: block}
+    .mobile--display--table-cell{display: table-cell}
+    .mobile--display--inline{display: inline}
+    .mobile--display--inline-block{display: inline-block}
+}
+

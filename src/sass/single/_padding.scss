@@ -1,0 +1,185 @@
+
+
+// PADDING RIGHT ================================================================================ 
+.pr--0px{padding-right: 0px}
+.pr--8px{padding-right: 8px}
+.pr--16px{padding-right: 16px}
+.pr--24px{padding-right: 24px}
+.pr--32px{padding-right: 32px}
+.pr--40px{padding-right: 40px}
+.pr--48px{padding-right: 48px}
+.pr--80px{padding-right: 80px}
+// ================================================================================ PADDING RIGHT
+//
+//
+//
+//
+//
+// MOBILE: PADDING RIGHT ================================================================================ 
+@media only all and (max-width: $mobile) {
+    .mobile--pr--0px{ padding-right: 0px }
+    .mobile--pr--8px{ padding-right: 8px }
+    .mobile--pr--16px{ padding-right: 16px }
+    .mobile--pr--24px{ padding-right: 24px }
+    .mobile--pr--32px{ padding-right: 32px }
+    .mobile--pr--40px{ padding-right: 40px }
+    .mobile--pr--80px{ padding-right: 80px }
+}
+
+@media only all and (min-width: $mobile) {
+    .desktop--pr--0px{ padding-right: 0px }
+    .desktop--pr--8px{ padding-right: 8px }
+    .desktop--pr--16px{ padding-right: 16px }
+    .desktop--pr--24px{ padding-right: 24px }
+    .desktop--pr--32px{ padding-right: 32px }
+    .desktop--pr--40px{ padding-right: 40px }
+    .desktop--pr--80px{ padding-right: 80px }
+}
+// ================================================================================ MOBILE: PADDING RIGHT
+//
+//
+//
+//
+//
+// PADDING LEFT ================================================================================ 
+.pl--0px{padding-left: 0px}
+.pl--8px{padding-left: 8px}
+.pl--16px{padding-left: 16px}
+.pl--24px{padding-left: 24px}
+.pl--32px{padding-left: 32px}
+.pl--40px{padding-left: 40px}
+.pl--48px{padding-left: 48px}
+.pl--80px{padding-left: 80px}
+// ================================================================================ PADDING LEFT
+//
+//
+//
+//
+//
+// MOBILE: PADDING LEFT ================================================================================ 
+@media only all and (max-width: $mobile) {
+    .mobile--pl--0px{ padding-left: 0px }
+    .mobile--pl--8px{ padding-left: 8px }
+    .mobile--pl--16px{ padding-left: 16px }
+    .mobile--pl--24px{ padding-left: 24px }
+    .mobile--pl--32px{ padding-left: 32px }
+    .mobile--pl--40px{ padding-left: 40px }
+    .mobile--pl--48px{ padding-left: 48px }
+    .mobile--pl--80px{ padding-left: 80px }
+}
+
+@media only all and (min-width: $mobile) {
+    .desktop--pl--0px{ padding-left: 0px }
+    .desktop--pl--8px{ padding-left: 8px }
+    .desktop--pl--16px{ padding-left: 16px }
+    .desktop--pl--24px{ padding-left: 24px }
+    .desktop--pl--32px{ padding-left: 32px }
+    .desktop--pl--40px{ padding-left: 40px }
+    .desktop--pl--48px{ padding-left: 48px }
+    .desktop--pl--80px{ padding-left: 80px }
+}
+// ================================================================================ MOBILE: PADDING LEFT
+//
+//
+//
+//
+//
+// PADDING TOP ================================================================================ 
+.pt--0px{padding-top: 0px}
+.pt--5px{padding-top: 5px}
+.pt--8px{padding-top: 8px}
+.pt--16px{padding-top: 16px}
+.pt--24px{padding-top: 24px}
+.pt--32px{padding-top: 32px}
+.pt--40px{padding-top: 40px}
+.pt--48px{padding-top: 48px}
+.pt--56px{padding-top: 56px}
+.pt--80px{padding-top: 80px}
+// ================================================================================ PADDING TOP
+//
+//
+//
+//
+//
+// MOBILE: PADDING TOP ================================================================================ 
+@media only all and (max-width: $mobile) {
+    .mobile--pt--0px{ padding-top: 0px }
+    .mobile--pt--8px{ padding-top: 8px }
+    .mobile--pt--16px{ padding-top: 16px }
+    .mobile--pt--24px{ padding-top: 24px }
+    .mobile--pt--32px{ padding-top: 32px }
+    .mobile--pt--40px{ padding-top: 40px }
+    .mobile--pt--48px{ padding-top: 48px }
+    .mobile--pt--80px{ padding-top: 80px }
+}
+
+@media only all and (min-width: $mobile) {
+    .desktop--pt--0px{ padding-top: 0px }
+    .desktop--pt--8px{ padding-top: 8px }
+    .desktop--pt--16px{ padding-top: 16px }
+    .desktop--pt--24px{ padding-top: 24px }
+    .desktop--pt--32px{ padding-top: 32px }
+    .desktop--pt--40px{ padding-top: 40px }
+    .desktop--pt--48px{ padding-top: 48px }
+    .desktop--pt--56px{ padding-top: 56px }
+    .desktop--pt--80px{ padding-top: 80px }
+}
+// ================================================================================ MOBILE: PADDING TOP
+//
+//
+//
+//
+//
+// PADDING BOTTOM ================================================================================ 
+.pb--0px{padding-bottom: 0px}
+.pb--8px{padding-bottom: 8px}
+.pb--16px{padding-bottom: 16px}
+.pb--24px{padding-bottom: 24px}
+.pb--32px{padding-bottom: 32px}
+.pb--40px{padding-bottom: 40px}
+.pb--48px{padding-bottom: 48px}
+.pb--56px{padding-bottom: 56px}
+.pb--64px{padding-bottom: 64px}
+.pb--80px{padding-bottom: 80px}
+// ================================================================================ PADDING BOTTOM
+//
+//
+//
+//
+//
+// MOBILE: PADDING BOTTOM ================================================================================ 
+@media only all and (max-width: $mobile) {
+    .mobile--pb--0px{ padding-bottom: 0px }
+    .mobile--pb--8px{ padding-bottom: 8px }
+    .mobile--pb--16px{ padding-bottom: 16px }
+    .mobile--pb--24px{ padding-bottom: 24px }
+    .mobile--pb--32px{ padding-bottom: 32px }
+    .mobile--pb--40px{ padding-bottom: 40px }
+    .mobile--pb--48px{ padding-bottom: 48px }
+    .mobile--pb--80px{ padding-bottom: 80px }
+}
+
+@media only all and (min-width: $mobile) {
+    .desktop--pb--0px{ padding-bottom: 0px }
+    .desktop--pb--8px{ padding-bottom: 8px }
+    .desktop--pb--16px{ padding-bottom: 16px }
+    .desktop--pb--24px{ padding-bottom: 24px }
+    .desktop--pb--32px{ padding-bottom: 32px }
+    .desktop--pb--40px{ padding-bottom: 40px }
+    .desktop--pb--48px{ padding-bottom: 48px }
+    .desktop--pb--56px{ padding-bottom: 56px }
+    .desktop--pb--80px{ padding-bottom: 80px }
+}
+
+// ================================================================================ MOBILE: PADDING BOTTOM
+
+.pr-8px-on-hover{
+    span{
+        transition: .2s ease-in-out;
+    }
+    &:hover{
+        span{
+            padding-right: 8px;
+        }
+    }
+}

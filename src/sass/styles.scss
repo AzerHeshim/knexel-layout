@@ -1,0 +1,30 @@
+// Import base styles
+@import "base/normalize";
+@import "base/reset";
+@import "base/variables";
+@import "base/fonts";
+@import "base/mixins";
+@import "base/typography";
+@import "single/flex";
+@import "single/margin";
+@import "single/padding";
+@import "single/width";
+@import "single/height";
+@import "single/scale";
+@import "single/display";
+@import "single/cursor";
+@import "single/position";
+@import "base/global";
+
+// Import components styles
+@import "components/components";
+
+// Import layouts styles
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/no-layout";
+@import "layouts/profile-layout";
+
+// Import pages styles
+@import "pages/home";
+@import "pages/not-found";

@@ -1,0 +1,66 @@
+table{
+    display: block;
+    thead{
+        display: none;
+    }
+    td{
+        width: 100%;
+        display: block;
+    }
+    tbody,tr{
+        width: 100%;
+        display: block;
+    }
+    tr{
+        padding: 16px 0px;
+        box-shadow: inset 0px -1px 0px $black2;
+    }
+}
+
+.unpaid{
+    color: $red;
+}
+
+@media only all and (min-width: $mobile) {
+    table{
+        width: 100%;
+        display: table;
+        td{
+            width: unset;
+        }
+        th{
+            padding: 16px;
+        }
+        tbody{
+            td{
+                padding: 16px;
+            }
+        }
+        tfoot{
+            td{
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+        }
+        th{
+            padding-top: 0px;
+        }
+        thead{
+            display: table-header-group;
+            th{
+               text-align: left;
+            }
+        }
+        tbody{
+            display: table-row-group;
+        }
+        tr{
+            width: auto;
+            display: table-row;
+        }
+        td{
+            width: auto;
+            display: table-cell;
+        }
+    }
+}

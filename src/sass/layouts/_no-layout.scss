@@ -1,0 +1,20 @@
+.no-layout-wrapper{
+    min-height: 100vh;
+    // padding-top: 120px;
+}
+footer{
+    &.no-layout{
+        background-color: transparent;
+        ul{
+            width: max-content;
+        }
+        .row{
+            box-shadow: none;
+        }
+        .copyright{
+            span{
+                color: $black4;
+            }
+        }
+    }
+}

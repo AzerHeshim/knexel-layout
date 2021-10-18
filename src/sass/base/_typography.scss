@@ -1,0 +1,95 @@
+.p1,
+.p2,
+.p3,
+p,
+li,
+label,
+a,
+small {
+  font-family: $ws_regular;
+  color: $black7;
+}
+
+.p2-l,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: $l_regular;
+    color: $black7;
+}
+
+.h4{
+    font-size: $h4-fs;
+    line-height: $h4-lh;
+    &--semi-bold{
+        font-size: $h4-fs;
+        line-height: $h4-lh;
+        font-family: $l_semi_bold;
+    }
+}
+
+.h5{
+    font-size: $h5-fs;
+    line-height: $h5-lh;
+    &--semi-bold{
+        font-size: $h5-fs;
+        line-height: $h5-lh;
+        font-family: $l_semi_bold;
+    }
+}
+
+.h6{
+    font-size: $h6-fs;
+    line-height: $h6-lh;
+    &--semi-bold{
+        font-size: $h6-fs;
+        line-height: $h6-lh;
+        font-family: $l_semi_bold;
+    }
+}
+
+.p1{
+    font-size: $p1-fs;
+    line-height: $p1-lh;
+    &--semi-bold{
+        font-size: $p1-fs;
+        line-height: $p1-lh;
+        font-family: $ws_semi_bold;
+    }
+}
+
+.p2{
+    font-size: $p2-fs;
+    line-height: $p2-lh;
+    &--semi-bold{
+        font-size: $p2-fs;
+        line-height: $p2-lh;
+        font-family: $ws_semi_bold;
+    }
+    &-l{
+        font-size: $p2-fs;
+        line-height: $p2-lh;
+        &--semi-bold{
+            font-size: $p2-fs;
+            line-height: $p2-lh;
+            font-family: $l_semi_bold;
+        } 
+    }
+}
+
+.p3{
+    font-size: $p3-fs;
+    line-height: $p3-lh;
+    &--semi-bold{
+        font-size: $p3-fs;
+        line-height: $p3-lh;
+        font-family: $ws_semi_bold;
+    }
+}

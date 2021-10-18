@@ -1,0 +1,31 @@
+.icon-img-hover{
+    position: relative;
+    display: block;
+    img{
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transition: all .2s ease-in-out;
+        &:first-child{
+            opacity: 1;
+            // visibility: visible;
+        }
+        &:last-child{
+            opacity: 0;
+            // visibility: hidden;
+        }
+    }
+    &:hover{
+        img{
+            &:first-child{
+                opacity: 0;
+                // visibility: hidden;
+            }
+            &:last-child{
+                opacity: 1;
+                // visibility: visible;
+            }
+        }
+    }
+}

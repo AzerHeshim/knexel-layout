@@ -1,0 +1,42 @@
+.btn{
+    width: 100%;
+    padding: 12px 16px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid $black7;
+    &-primary{
+        min-width: 168px;
+        color: $white;
+        background-color: $black7;
+        font-size: $p2-fs;
+        line-height: $p2-lh;
+        font-family: $ws_semi_bold;
+        transition: .2s ease-in-out;
+        &:hover{
+            border-color: $black6;
+            background-color: $black6;
+        }
+    }
+    &-outline{
+        min-width: 112px;
+        color: $black7;
+        background-color: $white;
+        font-size: $p2-fs;
+        line-height: $p2-lh;
+        font-family: $ws_semi_bold;
+        transition: .2s ease-in-out;
+        &:hover{
+            background-color: $black2;
+        }
+        &.green-btn{
+            color: $green;
+            border-color: $green;
+            &:hover{
+                background-color: $green--5;
+            }
+        }
+    }
+    &.width--max-content{
+        width: max-content;
+    }
+}

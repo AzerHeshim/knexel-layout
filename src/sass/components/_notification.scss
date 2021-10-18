@@ -1,0 +1,16 @@
+.notification{
+    &-error{
+        padding: 16px 12px;
+        border-radius: 4px;
+        color: $red;
+        background-color: $red--5;
+        border: 1px solid $red1;
+    }
+    &-success{
+        padding: 16px 12px;
+        border-radius: 4px;
+        color: $green;
+        background-color: $green--5;
+        border: 1px solid $green1;
+    }
+}

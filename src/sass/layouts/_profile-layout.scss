@@ -1,0 +1,39 @@
+aside{
+    ul{
+        li{
+            a{
+                &.active{
+                    color: $link;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+    .page-name{
+        display: none;
+    }
+}
+
+@media only all and (min-width: $mobile) {
+    .profile-layout-wrapper{
+        .profile-layout-inner-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            aside{
+                width: 264px;
+                margin-top: 16px;
+                .page-name{
+                    display: block;
+                }
+            }
+            .profile-content{
+                width: calc(100% - 264px);
+                padding-left: 24px;
+                .page-name{
+                    display: none;
+                }
+            }
+        }
+    }
+}

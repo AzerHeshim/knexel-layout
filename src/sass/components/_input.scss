@@ -1,0 +1,202 @@
+input, textarea, select{
+    width: 100%;
+    background: $white;
+    border: 1px solid $black2;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 8px 16px;
+    padding-right: 48px;
+    color: $black7!important;
+    appearance:none;
+    transition: .2s ease-in-out;
+    &::placeholder{
+        color: $black4!important;
+    }
+    &:hover{
+      border-color: $black4;
+    }
+    &:focus{
+      border-color: $black7!important;
+      box-shadow: 0px 0px 0px 4px $black2;
+    }
+}
+
+.select-wrapper{
+    position: relative;
+    i{
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        transform: translateY(-50%);
+        color: $black4;
+    }
+}
+
+.checkbox-wrapper {
+    line-height: 20px;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+    img{
+        padding: 2px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-wrapper input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 1px solid $black7;
+    border-radius: 4px;
+  }
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox-wrapper input:checked ~ .checkmark-box {
+    background-color: $black7;
+  }
+  
+  /* Create the checkmark-box/indicator (hidden when not checked) */
+//   .checkmark-box:after {
+//     content: "";
+//     position: absolute;
+//     display: none;
+//   }
+  
+  /* Show the checkmark-box when checked */
+//   .checkbox-wrapper input:checked ~ .checkmark-box:after {
+//     display: block;
+//   }
+  
+  /* Style the checkmark-box/indicator */
+//   .checkbox-wrapper .checkmark-box:after {
+//     left: 9px;
+//     top: 5px;
+//     width: 5px;
+//     height: 10px;
+//     border: 1px solid $black7;
+//     border-width: 0 3px 3px 0;
+//     -webkit-transform: rotate(45deg);
+//     -ms-transform: rotate(45deg);
+//     transform: rotate(45deg);
+//   }
+
+.search-wrapper{
+  position: relative;
+  i{
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+  }
+}
+
+.search-outer-wrapper{
+  position: relative;
+  .search-dropdown {
+    padding: 8px 15px;
+    position: fixed;
+    top: 143px;
+    left: 0px;
+    width: 100%;
+    height: calc(100vh - 143px);
+    overflow-y: auto;
+    // transform: translateY(100%);
+    background-color: $white;
+    z-index: 3;
+  }
+}
+
+.number-input-wrapper{
+  position: relative;
+  width: 104px;
+  input{
+    // padding: 0px;
+    // height: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-align: center;
+  }
+  button{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    &.minus-btn{
+      right: 0px;
+      padding-right: 18px;
+    }
+    &.plus-btn{
+      left: 0px;
+      padding-left: 18px;
+    }
+    i {
+      font-size: 12px;
+      color: $black4
+    };
+  }
+}
+
+@media only all and (min-width: $mobile) {
+  header{
+    .menu-wrapper{
+      position: relative;
+      .search-outer-wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 328px;
+        .search-group{
+          margin-bottom: 0px;
+        }
+        &.is-search-active {
+          .search-group{
+            &>i{
+              display: none;
+            }
+          }
+          .search-dropdown{
+            width: 504px;
+            height: 248px;
+            border: 1px solid $black2;
+            box-sizing: border-box;
+            border-radius: 4px;
+            padding: 16px;
+            position: absolute;
+            top: 43px;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+  }
+  header, .profile-content{
+    .input-wrapper, .select-wrapper{
+      max-width: 328px;
+    }
+  }
+}

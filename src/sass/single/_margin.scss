@@ -1,0 +1,275 @@
+//MARGIN-BOTTOM
+.mb-0px {
+  margin-bottom: 0px;
+}
+.mb-4px {
+  margin-bottom: 4px;
+}
+.mb-8px {
+  margin-bottom: 8px;
+}
+.mb-16px {
+  margin-bottom: 16px;
+}
+.mb-24px {
+  margin-bottom: 24px;
+}
+.mb-32px {
+  margin-bottom: 32px;
+}
+.mb-40px {
+  margin-bottom: 40px;
+}
+
+@media only all and (max-width: $mobile) {
+  .mb-0px,
+  .mb-4px,
+  .mb-8px,
+  .mb-16px,
+  .mb-24px,
+  .mb-32px,
+  .mb-40px {
+    &.mb-mobile-0px {
+      margin-bottom: 0px;
+    }
+    &.mb-mobile-4px {
+      margin-bottom: 4px;
+    }
+    &.mb-mobile-8px {
+      margin-bottom: 8px;
+    }
+    &.mb-mobile-16px {
+      margin-bottom: 16px;
+    }
+    &.mb-mobile-24px {
+      margin-bottom: 24px;
+    }
+    &.mb-mobile-32px {
+      margin-bottom: 32px;
+    }
+    &.mb-mobile-40px {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+//MARGIN-TOP
+.mt-0px {
+  margin-top: 0px;
+}
+.mt-4px {
+  margin-top: 4px;
+}
+.mt-8px {
+  margin-top: 8px;
+}
+.mt-16px {
+  margin-top: 16px;
+}
+.mt-24px {
+  margin-top: 24px;
+}
+.mt-32px {
+  margin-top: 32px;
+}
+.mt-40px {
+  margin-top: 40px;
+}
+
+@media only all and (max-width: $mobile) {
+  .mt-0px,
+  .mt-4px,
+  .mt-8px,
+  .mt-16px,
+  .mt-24px,
+  .mt-32px,
+  .mt-40px {
+    &.mt-mobile-0px {
+      margin-top: 0px;
+    }
+    &.mt-mobile-4px {
+      margin-top: 4px;
+    }
+    &.mt-mobile-8px {
+      margin-top: 8px;
+    }
+    &.mt-mobile-16px {
+      margin-top: 16px;
+    }
+    &.mt-mobile-24px {
+      margin-top: 24px;
+    }
+    &.mt-mobile-32px {
+      margin-top: 32px;
+    }
+    &.mt-mobile-40px {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media only all and (min-width: $mobile) {
+  .mt-desktop-16px{
+    margin-top: 16px;
+  }
+}
+
+@media only all and (min-width: $mobile) {
+  .desktop-mt-88px{
+    margin-top: 88px;
+  }
+  .desktop-mt-16px{
+    margin-top: 16px;
+  }
+  .desktop-mb-16px{
+    margin-bottom: 16px;
+  }
+  .desktop-mt-32px{
+    margin-top: 32px;
+  }
+  .desktop-mb-24px{
+    margin-bottom: 24px;
+  }
+  .desktop-mb-40px{
+    margin-bottom: 40px;
+  }
+  .desktop-mb-0px{
+    margin-bottom: 0px;
+  }
+}
+
+//MARGIN-LEFT
+.ml-0px {
+  margin-left: 4px;
+}
+.ml-4px {
+  margin-left: 4px;
+}
+.ml-6px {
+  margin-left: 6px;
+}
+.ml-8px {
+  margin-left: 8px;
+}
+.ml-16px {
+  margin-left: 16px;
+}
+.ml-24px {
+  margin-left: 24px;
+}
+.ml-32px {
+  margin-left: 32px;
+}
+.ml-40px {
+  margin-left: 40px;
+}
+
+@media only all and (max-width: $mobile) {
+  .ml-0px,
+  .ml-4px,
+  .ml-6px,
+  .ml-8px,
+  .ml-16px,
+  .ml-24px,
+  .ml-32px,
+  .ml-40px {
+    &.ml-mobile-0px {
+      margin-left: 0px;
+    }
+    &.ml-mobile-4px {
+      margin-left: 4px;
+    }
+    &.ml-mobile-6px {
+      margin-left: 6px;
+    }
+    &.ml-mobile-8px {
+      margin-left: 8px;
+    }
+    &.ml-mobile-16px {
+      margin-left: 16px;
+    }
+    &.ml-mobile-24px {
+      margin-left: 24px;
+    }
+    &.ml-mobile-32px {
+      margin-left: 32px;
+    }
+    &.ml-mobile-40px {
+      margin-left: 40px;
+    }
+  }
+}
+
+//MARGIN-RIGHT
+.mr-0px {
+  margin-right: 0px;
+}
+.mr-4px {
+  margin-right: 4px;
+}
+.mr-6px {
+  margin-right: 6px;
+}
+.mr-8px {
+  margin-right: 8px;
+}
+.mr-16px {
+  margin-right: 16px;
+}
+.mr-32px {
+  margin-right: 32px;
+}
+.mr-40px {
+  margin-right: 40px;
+}
+
+@media only all and (max-width: $mobile) {
+  .mr-0px,
+  .mr-4px,
+  .mr-6px,
+  .mr-8px,
+  .mr-16px,
+  .mr-24px,
+  .mr-32px,
+  .mr-40px {
+    &.mr-mobile-0px {
+      margin-right: 0px;
+    }
+    &.mr-mobile-4px {
+      margin-right: 4px;
+    }
+    &.mr-mobile-6px {
+      margin-right: 6px;
+    }
+    &.mr-mobile-8px {
+      margin-right: 8px;
+    }
+    &.mr-mobile-16px {
+      margin-right: 16px;
+    }
+    &.mr-mobile-24px {
+      margin-right: 24px;
+    }
+    &.mr-mobile-32px {
+      margin-right: 32px;
+    }
+    &.mr-mobile-40px {
+      margin-right: 40px;
+    }
+  }
+}
+
+.m--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell_center {
+  text-align: center !important;
+}
+
+@media only all and (min-width: $mobile) {
+  .desktop-ml--auto{
+    margin-left: auto;
+  }
+}

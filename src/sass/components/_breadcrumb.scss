@@ -1,0 +1,25 @@
+.breadcrumb-sc {
+    display: none;
+    .breadcrumb-list {
+        .breadcrumb-item {
+            display: inline-block;
+            i{
+                font-size: 8px;
+            }
+            &:last-child{
+                i{
+                    color: $black4;
+                }
+                a{
+                    color: $black4;
+                }
+            }
+        }
+    }
+}
+
+@media only all and (min-width: $mobile) {
+    .breadcrumb-sc{
+        display: block!important;
+    }
+}

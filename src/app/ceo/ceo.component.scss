@@ -1,0 +1,71 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.ceo{
+  margin-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: url("../../assets/images/ceo_bg.svg") no-repeat center;
+  background-size: contain;
+}
+.ceo_img{
+  background: aliceblue;
+  width: 100%;
+  object-fit: cover;
+}
+.ceo_media{
+  margin-right: 60px;
+  width: 30%;
+}
+.ceo_message{
+  width: 70%;
+}
+.ceo_message_head{
+  font-size: $h6-fs;
+  line-height: $h6-lh;
+  margin-bottom: 22px;
+  color: $link;
+  margin-top: 0;
+}
+
+.ceo_message_desc{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  margin-bottom: 22px;
+  text-align: justify;
+}
+.ceo_cp{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.ceo_name{
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin-bottom: 10px;
+  color: $link;
+}
+.ceo_desc{
+  font-size: $p4-fs;
+  line-height:  $p4-lh;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .ceo{
+    flex-direction: column;
+  }
+  .ceo_media{
+    margin-right: 0;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+  .ceo_message{
+    width: 100%;
+  }
+
+}

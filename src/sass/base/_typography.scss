@@ -6,7 +6,7 @@ li,
 label,
 a,
 small {
-  font-family: $ws_regular;
+  //font-family: $ws_regular;
   color: $black7;
 }
 
@@ -21,7 +21,7 @@ h4,
 h5,
 h6
 {
-    font-family: $l_regular;
+    //font-family: $l_regular;
     color: $black7;
 }
 
@@ -80,7 +80,7 @@ h6
             font-size: $p2-fs;
             line-height: $p2-lh;
             font-family: $l_semi_bold;
-        } 
+        }
     }
 }
 

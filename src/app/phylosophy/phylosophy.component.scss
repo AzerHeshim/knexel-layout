@@ -1,0 +1,57 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.philosophy{
+  margin-top: 90px;
+}
+.philosophy_top, .philosophy_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.desc_head{
+  font-size: $h5-fs;
+  line-height: $h5-lh;
+  margin-bottom: 14px;
+}
+.desc{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  text-align: justify;
+}
+.desc_head{
+  color: $link;
+}
+.desription , .media{
+  width: 50%;
+}
+.phy_media{
+  background: aliceblue;
+  object-fit: cover;
+  width: 100%;
+}
+.desription, .bottom_media{
+  margin-right: 32px;
+}
+.desription_bottom{
+  margin: 0 !important;
+}
+
+
+@media (max-width: 768px) {
+  .philosophy_top{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .philosophy_bottom{
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+  .desription , .media{
+    width: 100%;
+  }
+  .desription, .bottom_media {
+    margin-right: 0px;
+  }
+}

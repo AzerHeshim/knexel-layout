@@ -1,0 +1,171 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+.blog_content{
+  margin-top: 90px;
+}
+.blog_head{
+  font-size: $h3-fs;
+  link: $h3-lh;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.date{
+  font-size: $p5-fs;
+  line-height: $p5-lh;
+  margin-right: 46px;
+  color: #C6C8D3;
+}
+.date_share{
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.share{
+  border-radius: 15px;
+  background: $link;
+  color: white;
+  font-size: $p5-fs;
+  line-height: $p5-lh;
+  padding: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fb_logo{
+  margin-right: 8px;
+}
+.blog_slider{
+  margin-bottom: 30px;
+}
+.blog_text{
+  margin-bottom: 40px;
+}
+.blog_p{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  margin-bottom: 32px;
+}
+.blog_similar_head{
+  font-size: $h3-fs;
+  link: $h3-lh;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.blogs_list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+//.blog_card{
+//  padding: 10px;
+//  word-wrap: break-word;
+//  box-sizing: border-box;
+//  border: 1px solid #ccc;
+//  margin-bottom: 20px;
+//  margin-right: 20px;
+//  width: 31.6%;
+//}
+
+.new_card{
+  margin-right: 20px;
+  width: 31.6%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.new_card:hover{
+  transition: 0.3s all;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+.card_img{
+  height: 250px;
+  object-fit: cover;
+  background: aliceblue;
+  width: 100%;
+}
+
+
+.news_card_info{
+  padding: 16px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  position: relative;
+}
+.news_card_info_head{
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin: 16px 0;
+  font-weight: bold;
+  margin-top: 0;
+}
+.news_card_info_desc{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.news_card_date{
+  font-size: $p5-fs;
+  line-height: $p5-lh;
+  color: $link;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.card_navigate{
+  color: $link;
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  font-weight: bold;
+}
+.new_card{
+  margin-right: 20px;
+}
+.new_card:hover{
+  transition: 0.3s all;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+}
+.new_badge{
+  position: absolute;
+}
+.badge_view{
+  position: relative;
+  top: 16px;
+  left: 20px;
+  border-radius: 28px;
+  padding: 4px 30px;
+  font-size: $p5-fs;
+  line-height: $p5-lh;
+  background: $link;
+  color: white;
+}
+@media (min-width: 994px) and (max-width: 1200px) {
+  .new_card {
+    width: 31.1%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 994px) {
+  .new_card {
+    width: 44%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .new_card {
+    width: 100%;
+    margin-right: 0;
+  }
+  .blog_head{
+    font-size: 24px;
+  }
+  .blog_p{
+    font-size: 14px;
+  }
+}
+

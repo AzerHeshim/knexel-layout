@@ -1,0 +1,22 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.goals{
+  margin-top: 90px;
+}
+
+
+.goals_head{
+  display: flex;
+  align-items: center;
+}
+
+.right_log{
+  margin-right: 10px;
+}
+.goals_header{
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  color:#0E3B5B;
+  margin-bottom: 28px;
+}

@@ -1,0 +1,120 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.vacancies{
+  margin-top: 90px;
+}
+
+.vacancies_tab{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+.tab{
+  height: 40px;
+  border-bottom: 3px solid #A1C9E5;
+  padding: 0 56px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.tab_selected{
+  border-bottom: 3px solid #1379BE;;
+}
+
+.tab_name{
+ font-size: $h7-fs;
+  color: #A1C9E5;
+  line-height: $h7-lh;
+  margin-bottom: 16px;
+}
+.tab_selected_name{
+  color: #1379BE;
+}
+.vacancies_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.vacancy_item{
+  flex: 0 49%;
+  padding: 14px 20px;
+  border: 1px solid #E3F8FF;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+.vacancy_item:hover{
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.16);
+  transition: all 0.3s;
+}
+
+.vacancy_name{
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin: 0 0 15px;
+  color: #1379BE;
+}
+.vacancy_divider{
+  border: 1px solid #E3F8FF;
+  margin: 0 14px;
+}
+.vacancy_data_names{
+  display: flex;
+  justify-content: space-between;
+}
+.vacancy_data_name{
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin-bottom: 13px;
+  font-weight: bold;
+}
+.vacancy_data_value{
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin-bottom: 13px;
+  margin-top: 0;
+}
+.vacancy_date{
+  font-size: $p5-fs;
+  line-height: $p5-lh;
+  color: #0E3B5B;
+  margin-top: 14px;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+.vacancy_navigate{
+  font-size: $p5-fs;
+  line-height: $p5-lh;
+  color:$link;
+  cursor: pointer;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+.more{
+  display: block;
+  margin: 60px auto 0;
+}
+@media (max-width: 768px) {
+  .vacancies_tab{
+    width: 100%;
+  }
+  .tab_name{
+    font-size: $p5-fs;
+    white-space: nowrap;
+  }
+  .tab {
+    padding: 0 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  .vacancies_list{
+    flex-direction: column;
+  }
+  .vacancy_item{
+    width: 100%;
+  }
+}

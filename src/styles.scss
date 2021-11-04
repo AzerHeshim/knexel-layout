@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import "src/sass/base/global";
 @import "src/sass/base/variables";
+@import "src/sass/base/fonts";
+
+*{
+  font-family: $gt_medium;
+}
+
 
 body, html{
   margin: 0;
@@ -16,6 +22,8 @@ body, html{
   font-size: $p4-fs;
   line-height: $p4-lh;
   color: $white;
+
+  width: fit-content;
 }
 .sm_banner_h2{
   font-size: $h3-fs;

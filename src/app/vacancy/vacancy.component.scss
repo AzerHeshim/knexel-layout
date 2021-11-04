@@ -1,0 +1,72 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.vacancy{
+  margin-top: 90px;
+}
+
+.vacancy_headers, .vacancy_values{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vacancy_experience, .vacancy_salary{
+  width: 50%;
+  font-weight: bold;
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin-bottom: 13px;
+}
+
+.experience_value, .salary_value{
+  width: 50%;
+  font-size: $h7-fs;
+  line-height: $h7-lh;
+  margin-bottom: 27px;
+}
+
+.vacancy_head_part{
+  border-bottom: 1px solid #E3F8FF;
+}
+
+.vacancy_content{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #E3F8FF;
+}
+.vacancy_req{
+  width: 50%;
+}
+.req_head{
+  font-weight: bold;
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  margin-bottom: 16px;
+  color: #1379BE;
+}
+
+.req_item{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.vacancy_footer{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .vacancy_content{
+    flex-direction: column;
+  }
+  .vacancy_req{
+    width: 100%;
+  }
+}

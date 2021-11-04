@@ -1,0 +1,250 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.contact{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.contact_content{
+  display: flex;
+  justify-content: space-between;
+}
+.contact_options, .contact_form{
+  width: 45%;
+}
+.contact_head{
+  font-size: $h2-fs;
+  line-height: $h2-lh;
+  margin-bottom: 36px;
+  color: $link;
+}
+.option_item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.option_icon{
+  margin-right: 16px;
+}
+.option_name{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  color: #0E3B5B;;
+}
+.form{
+  padding: 30px;
+  background: #f2faff;
+}
+.name_mail{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.half_input{
+  width: 43%;
+  height: 47px;
+  border: 1px solid #1379BE;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #1379BE;
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  padding-left: 16px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+.half_input::placeholder{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  color: #1379BE;
+  opacity: 0.4;
+}
+.half_input:focus{
+  border: 1px solid #1379BE; ;
+  box-shadow: 0px 4px 10px rgba(19, 121, 190, 0.16);
+  outline: none;
+}
+.status{
+  //padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.status_name{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  color: #92949F;
+}
+.line{
+  height: 100%;
+  width: 1px;
+  background: #1379BE;
+  opacity: 0.4;
+  margin: 0 13px;
+}
+.radioboxes{
+  display: flex;
+  align-items: center;
+}
+
+
+//radiobox
+
+.radio,
+.radio__label,
+.radio__label:after,
+.radio__label:before {
+  box-sizing: border-box;
+}
+
+// For demonstration only
+.radio__container {
+  &:nth-child(1) {
+    display: flex;
+  }
+}
+
+.radio__container {
+  .radio-inline {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .radio {
+    display: inline;
+    opacity: 0;
+    width: 0;
+    margin: 0;
+    overflow: hidden;
+    -webkit-appearance: none;
+  }
+
+  .radio__label {
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    padding: 10px 0px 11px 14px;
+    cursor: pointer;
+    vertical-align: bottom;
+    color: rgba(0, 0, 0, .54);
+    transition: color 200ms ease;
+
+    &:before, &:after {
+      position: absolute;
+      content: "";
+      border-radius: 50%;
+      transition: transform 200ms ease, border-color 200ms ease;
+    }
+
+    &:before {
+      left: -3px;
+      top: 17px;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgb(219, 219, 219);
+    }
+
+    &:after {
+      top: 21px;
+      left: 1px;
+      width: 6px;
+      height: 6px;
+      transform: scale(0);
+      background-color: rgb(60, 145, 230);
+    }
+
+    &:hover {
+      color: rgb(60, 145, 230);
+
+      &:before {
+        border-color: rgb(251, 135, 43);
+      }
+    }
+  }
+
+  .radio:checked {
+    & + .radio__label {
+      color: rgba(0, 0, 0, .87);
+    }
+
+    & + .radio__label:before {
+      border-color: rgb(60, 145, 230);
+    }
+
+    & + .radio__label:after {
+      transform: scale(1);
+    }
+  }
+}
+.textarea{
+  width: 96%;
+  height: 100px;
+  border: 1px solid #1379BE;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #1379BE;
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  padding-left: 16px;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+.textarea::placeholder{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  color: #1379BE;
+  opacity: 0.4;
+}
+.textarea:focus{
+  border: 1px solid #1379BE; ;
+  box-shadow: 0px 4px 10px rgba(19, 121, 190, 0.16);
+  outline: none;
+}
+
+@media (max-width: 1660px) {
+  .contact_options, .contact_form {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_content{
+    flex-direction: column;
+  }
+  .contact_options, .contact_form {
+    width: 100%;
+  }
+  .contact_head {
+    font-size: $h4-fs;
+    line-height: $h4-lh;
+    margin-bottom: 30px;
+    color: #1379BE;
+  }
+  .option_name {
+    font-size: 16px;
+    line-height: $p4-lh;
+    color: #0E3B5B;
+  }
+  .name_mail{
+    flex-direction: column;
+  }
+  .half_input{
+    width: 97%;
+  }
+  .form {
+    padding: 60px 16px;
+    background: #f2faff;
+  }
+  .half_input{
+    padding: 0;
+    padding-left: 16px;
+  }
+  .textarea{
+    padding: 0;
+    padding-left: 16px;
+    width: 96%;
+  }
+}

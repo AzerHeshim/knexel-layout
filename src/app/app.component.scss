@@ -1,0 +1,18 @@
+.not_found{
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.not_found_head{
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 90px;
+}
+
+.not_found_desc{
+  font-size: 16px;
+  margin: 32px 0;
+}

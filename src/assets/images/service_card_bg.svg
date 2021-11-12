@@ -1,0 +1,7 @@
+<svg width="575" height="314" viewBox="0 0 575 314" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="575" height="314" fill="#F6FDFF"/>
+<rect opacity="0.05" x="432" width="84" height="59" fill="#1379BE"/>
+<rect opacity="0.05" x="575" width="143" height="59" transform="rotate(90 575 0)" fill="#1379BE"/>
+<rect opacity="0.05" x="143" y="314" width="143" height="59" transform="rotate(-180 143 314)" fill="#1379BE"/>
+<rect opacity="0.05" y="255" width="84" height="59" transform="rotate(-90 0 255)" fill="#1379BE"/>
+</svg>

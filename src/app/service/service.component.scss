@@ -1,0 +1,121 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.service{
+  margin-top: 90px;
+}
+.service_heading{
+  margin-bottom: 90px;
+}
+
+.service_header{
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.adv_head{
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.service_advantages_list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px
+}
+
+.service_advantages_card{
+  padding: 30px 64px;
+  background: url("../../assets/images/service_card_bg.svg") no-repeat;
+  background-size: contain;
+  //height: 314px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.card_head{
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  margin-bottom: 12px;
+}
+
+.card_desc{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+}
+
+.service_advantages_card:hover{
+  background: #1379BE;
+  .card_head{
+   color: #fff;
+  }
+  .card_desc{
+    color: #fff;
+  }
+}
+
+.faq_head{
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  text-align: center;
+  color: $link;
+  margin-bottom: 28px;
+  margin-top: 90px;
+}
+
+
+
+.faq_question{
+  width: 60%;
+  margin: 0 auto;
+  height: 60px;
+  background: aliceblue ;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #0E3B5B;
+  padding: 0 30px;
+}
+
+.selected_question{
+  background: #1379BE;
+  color: white;
+}
+
+.faq_answer{
+  width: 55%;
+  margin: 20px auto;
+  color: #0E3B5B;
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+}
+
+@media (max-width: 768px) {
+  .service_advantages_list{
+    display: block;
+  }
+  .service_advantages_card{
+    padding: 64px 30px;
+    background: url("../../assets/images/service_card_bg_mobile.svg") no-repeat;
+    background-size: contain;
+    //height: 314px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+  }
+
+  .faq_question{
+    width: 100%;
+  }
+
+  .selected_question{
+    background: #1379BE;
+    color: white;
+  }
+
+  .faq_answer{
+    width: 100%;
+  }
+}

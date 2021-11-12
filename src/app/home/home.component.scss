@@ -309,13 +309,13 @@ margin-top: 107px;
   margin-right: 16px;
 }
 .projects_cards{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
   margin-top: 40px;
 }
 .project_card{
-  width: 33%;
+  width: 100%;
   margin-right: 20px;
 }
 .project_card_img{

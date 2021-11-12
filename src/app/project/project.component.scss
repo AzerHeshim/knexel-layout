@@ -1,0 +1,82 @@
+@import "src/sass/base/global";
+@import "src/sass/base/variables";
+
+.project{
+  margin-top: 90px;
+}
+
+.project_head{
+  font-size: $h4-fs;
+  line-height: $h4-lh;
+  margin-bottom: 14px;
+  color: $link;
+}
+
+.project_desc{
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  margin-bottom: 64px;
+}
+
+.project_info_item{
+  background: #0B0D17;
+  border-radius: 6px;
+  height: 80px;
+  width: 278px;
+  padding: 0 16px;
+  color: #fff;
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+  display: flex;
+  align-items: center;
+}
+
+.project_info_item_icon{
+  margin-right: 16px;
+}
+
+.team_members{
+  margin-right: 20px;
+}
+
+.project_short_info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.projects_done_works_list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.work_item{
+  background: rgb(199 217 226 / 26%);;
+  border-radius: 6px;
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  font-size: $p4-fs;
+  line-height: $p4-lh;
+}
+
+.work_item_icon{
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .project_short_info{
+   flex-direction: column;
+  }
+
+  .team_members{
+    margin: 0;
+  }
+  .projects_done_works_list{
+    grid-template-columns: 1fr;
+  }
+  .project_info_item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
